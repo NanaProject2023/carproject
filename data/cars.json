@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "make": "BMW",
+    "model": "M3",
+    "price": 60000,
+    "image": "bmw.jpg"
+  }
+]
