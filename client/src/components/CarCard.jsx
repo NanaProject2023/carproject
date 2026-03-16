@@ -1,5 +1,5 @@
 import "./CarCard.css";
-import ".App.css";
+
 
 function CarCard({ car, onView, addToCart }) {
 
