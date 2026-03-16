@@ -1,0 +1,60 @@
+.car-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 10px 20px rgba(0,0,0,0.15);
+}
+
+.car-image{
+  width:100%;
+  height:250px;
+  object-fit:cover;
+}
+
+.car-card h3{
+  font-size:18px;
+  margin:10px;
+}
+
+.car-card p{
+  margin:4px 10px;
+  color:#555;
+}
+
+.price{
+  color:#1e8e3e;
+  font-weight:bold;
+  font-size:18px;
+  margin-bottom:12px;
+}
+
+
+
+.card-buttons{
+  display:flex;
+  justify-content:space-between;
+  padding:15px;
+  gap:10px;
+}
+
+.card-buttons button{
+  flex:1;
+  padding:10px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.view-btn{
+  background:#0f10446b;
+  color:white;
+}
+
+.cart-btn{
+  background:#4b97b09b;
+  color:white;
+}
+
+.card-buttons button:hover{
+  opacity:0.9;
+}
+
