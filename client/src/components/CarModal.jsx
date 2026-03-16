@@ -26,12 +26,9 @@ function CarModal({ car, closeModal, addToCart }) {
         </button>
 
         <img
-<<<<<<< HEAD
-           src={`${import.meta.env.BASE_URL}assets/${car.image}`}
-          alt={car.make}
-=======
+
           src={`${import.meta.env.BASE_URL}assets/${mainImage}`}
->>>>>>> 0625a98 (misc)
+
           className="modal-image"
         />
 
