@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "make": "BMW",
+    "model": "M3 Competition",
+    "year": 2022,
+    "price": 72000,
+    "image_url": "car1.jpg",
+    "image2": "car1.jpg",
+    "image3": "car1.jpg",
+    "image4": "car1.jpg",
+    "image5": "car1.jpg"
+  },
+  {
+    "id": 2,
+    "make": "Audi",
+    "model": "RS5",
+    "year": 2021,
+    "price": 69000,
+    "image_url": "car2.jpg",
+    "image2": "car2.jpg",
+    "image3": "car2.jpg",
+    "image4": "car2.jpg",
+    "image5": "car2.jpg"
+  },
+  {
+    "id": 3,
+    "make": "Mercedes",
+    "model": "C63 AMG",
+    "year": 2020,
+    "price": 68000,
+    "image_url": "car3.jpg",
+    "image2": "car3.jpg",
+    "image3": "car3.jpg",
+    "image4": "car3.jpg",
+    "image5": "car3.jpg"
+  },
+  {
+    "id": 4,
+    "make": "Tesla",
+    "model": "Model S Plaid",
+    "year": 2023,
+    "price": 99000,
+    "image_url": "car4.jpg",
+    "image2": "car4.jpg",
+    "image3": "car4.jpg",
+    "image4": "car4.jpg",
+    "image5": "car4.jpg"
+  },
+  {
+    "id": 5,
+    "make": "Porsche",
+    "model": "911 Carrera",
+    "year": 2022,
+    "price": 115000,
+    "image_url": "car5.jpg",
+    "image2": "car5.jpg",
+    "image3": "car5.jpg",
+    "image4": "car5.jpg",
+    "image5": "car5.jpg"
+  },
+  {
+    "id": 6,
+    "make": "Ford",
+    "model": "Mustang GT",
+    "year": 2021,
+    "price": 42000,
+    "image_url": "car6.jpg",
+    "image2": "car6.jpg",
+    "image3": "car6.jpg",
+    "image4": "car6.jpg",
+    "image5": "car6.jpg"
+  },
+  {
+    "id": 7,
+    "make": "Chevrolet",
+    "model": "Corvette Stingray",
+    "year": 2023,
+    "price": 83000,
+    "image_url": "car7.jpg",
+    "image2": "car7.jpg",
+    "image3": "car7.jpg",
+    "image4": "car7.jpg",
+    "image5": "car7.jpg"
+  },
+  {
+    "id": 8,
+    "make": "Lamborghini",
+    "model": "Huracan",
+    "year": 2022,
+    "price": 245000,
+    "image_url": "car8.jpg",
+    "image2": "car8.jpg",
+    "image3": "car8.jpg",
+    "image4": "car8.jpg",
+    "image5": "car8.jpg"
+  },
+  {
+    "id": 9,
+    "make": "Ferrari",
+    "model": "F8 Tributo",
+    "year": 2021,
+    "price": 276000,
+    "image_url": "car9.jpg",
+    "image2": "car9.jpg",
+    "image3": "car9.jpg",
+    "image4": "car9.jpg",
+    "image5": "car9.jpg"
+  },
+  {
+    "id": 10,
+    "make": "Nissan",
+    "model": "GT-R",
+    "year": 2022,
+    "price": 120000,
+    "image_url": "car10.jpg",
+    "image2": "car10.jpg",
+    "image3": "car10.jpg",
+    "image4": "car10.jpg",
+    "image5": "car10.jpg"
+  }
+]
