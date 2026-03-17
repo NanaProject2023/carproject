@@ -6,6 +6,8 @@ import Cart from "./components/Cart";
 import "./App.css";
 import PromoVideo2 from "./components/PromoVideo2"; 
 import VideoBground from "./components/VideoBground";   
+import FeedbackForm from "./components/FeedbackForm"; 
+
 
 function App() {
 
@@ -36,6 +38,7 @@ function App() {
 
       <PromoVideo2 />
       <VideoBground />
+      <FeedbackForm />
 
 
       {cartOpen && (

@@ -1,0 +1,46 @@
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback-form {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.feedback-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.feedback-form button,
+.load-btn {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.feedback-card {
+  background: rgba(255, 255, 255, 0.15);
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  width: 300px;
+}
