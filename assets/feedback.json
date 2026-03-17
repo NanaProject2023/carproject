@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Alex",
+    "feedback": "Great selection of cars, very smooth UI!"
+  },
+  {
+    "id": 2,
+    "name": "Jordan",
+    "feedback": "Images load fast, but would love more filters."
+  },
+  {
+    "id": 3,
+    "name": "Taylor",
+    "feedback": "Clean design and easy to navigate."
+  },
+  {
+    "id": 4,
+    "name": "Chris",
+    "feedback": "Add to cart feature works perfectly."
+  },
+  {
+    "id": 5,
+    "name": "Sam",
+    "feedback": "Would be nice to compare cars side by side."
+  }
+]
