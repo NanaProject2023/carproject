@@ -106,17 +106,6 @@
     "image3": "car9.jpg",
     "image4": "car9.jpg",
     "image5": "car9.jpg"
-  },
-  {
-    "id": 10,
-    "make": "Nissan",
-    "model": "GT-R",
-    "year": 2022,
-    "price": 120000,
-    "image_url": "car10.jpg",
-    "image2": "car10.jpg",
-    "image3": "car10.jpg",
-    "image4": "car10.jpg",
-    "image5": "car10.jpg"
   }
+
 ]

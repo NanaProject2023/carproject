@@ -59,7 +59,7 @@ export default function FeedbackForm() {
         <button type="submit">Submit</button>
       </form>
 
-      <button onClick={loadFeedback} className="load-btn">
+      <button onClick={loadFeedback} className="load-btn" id="reloadButton">
         Reload Feedback
       </button>
 

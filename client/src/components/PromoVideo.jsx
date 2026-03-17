@@ -14,6 +14,8 @@ function PromoVideo() {
         <source  src={`${import.meta.env.BASE_URL}assets/promo.mp4`}  type="video/mp4" />
       </video>
 
+      
+
     </div>
   );
 }
