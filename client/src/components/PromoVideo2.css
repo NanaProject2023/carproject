@@ -17,15 +17,15 @@
   left: 12%;
   transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, 0.14);
-  color: rgb(56, 33, 172);
-  border: 1px solid rgb(201, 18, 18);
-  border-radius: 20px;
+  color: rgb(113, 109, 69);
+  border: 1px solid;
+  border-radius: 0px;
   padding: 10px;
   cursor: pointer;
-  font-size: 50px;
-  margin-top: 200px;
+  font-size: 36px;
+  margin-top: 160px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  padding : 20px 40px;
+  padding : 10px 40px;
   
  
 }

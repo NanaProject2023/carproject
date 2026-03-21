@@ -7,6 +7,8 @@ import "./App.css";
 import PromoVideo2 from "./components/PromoVideo2"; 
 import VideoBground from "./components/VideoBground";   
 import FeedbackForm from "./components/FeedbackForm"; 
+import Car3D from "./components/Car3D";
+
 
 
 function App() {
@@ -39,6 +41,8 @@ function App() {
       <PromoVideo2 />
       <VideoBground />
       <FeedbackForm />
+      <Car3D /> 
+      
 
 
       {cartOpen && (

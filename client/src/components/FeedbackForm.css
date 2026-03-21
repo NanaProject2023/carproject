@@ -1,9 +1,8 @@
 .feedback-container {
   display: flex;
-  flex-direction: column;
-  margin-left: 65%;
-  
-  
+  flex-direction:column;
+  margin-left: 1300px;
+
   margin-top: -620px;
 }
 
@@ -24,6 +23,7 @@
   font-size: 15px;
   padding: 10px;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
 .feedback-form textarea {
@@ -51,6 +51,6 @@
   margin-top: 20px;
   padding: 10px;
   border-radius: 5px;
-  color: rgb(208, 28, 28);
+  color: rgba(5, 5, 64, 0.759);
   width: 480px;
 }

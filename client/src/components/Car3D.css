@@ -1,0 +1,58 @@
+
+
+.car3D-container {
+  width: 800px;
+  height: 700px;
+  margin-top: -866px;
+  margin-left: 22%;
+
+  text-align: center;
+  padding: 20px;
+  background: #050505;
+  color: #44a5cb;
+  
+ 
+ 
+}
+
+.car3D-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.car3D-container h3 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #aed1ed;
+}
+
+model-viewer {
+  width: 800px;
+  height: 700px;
+  background: rgb(162, 162, 172);
+  
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.controls button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  background: rgb(93, 161, 183);
+  color: rgb(243, 248, 249);
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.controls button:hover {
+  background: rgb(217, 217, 223);
+  color: #050505;
+}
+.car3D-container {
+  
+  height: 600px;
+}
