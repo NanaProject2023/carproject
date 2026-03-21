@@ -28,12 +28,6 @@
     "month": "May",
     "car_name": "BMW Concept",
     "model": "assets/3d5.glb"
-  },
-  {
-    "id": 6,
-    "month": "June",
-    "car_name": "Mercedes Vision",
-    "model": "assets/3d6.glb"
   }
  
 ]
