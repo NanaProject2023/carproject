@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "month": "January",
+    "car_name": "Ferrari Concept",
+    "model": "assets/3d1.glb"
+  },
+  {
+    "id": 2,
+    "month": "February",
+    "car_name": "Porsche Style",
+    "model": "assets/3d2.glb"
+  },
+    {
+    "id": 3,
+    "month": "March",
+    "car_name": "Audi Concept",
+    "model": "assets/3d3.glb"
+  },
+  {
+    "id": 4,
+    "month": "April",
+    "car_name": "Lamborghini Style",
+    "model": "assets/3d4.glb"
+  },
+  {
+    "id": 5,
+    "month": "May",
+    "car_name": "BMW Concept",
+    "model": "assets/3d5.glb"
+  }
+ 
+]
