@@ -15,3 +15,11 @@
   top: 0; /* or 10px, 20px, etc */
   z-index: 100; /* helps it stay above other elements */
 }
+.banner-logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 400px; /* adjust size */
+  height: 100px;
+  z-index: 2;
+}

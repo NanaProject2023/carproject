@@ -4,6 +4,7 @@ function PromoVideo() {
   return (
     <>
     <div className="sticky-element">
+      <div className="proomo">
     <div className="promo-video-container">
 
       <video
@@ -16,8 +17,14 @@ function PromoVideo() {
         <source  src={`${import.meta.env.BASE_URL}assets/promo.mp4`}  type="video/mp4" />
       </video>
 
-      
+  <img
+    src={`${import.meta.env.BASE_URL}assets/logo.jpg`}
+    alt="logo"
+    className="banner-logo"
+  />
 
+      
+        </div>
       </div>
     </div>
   </>
