@@ -11,7 +11,7 @@ function VideoBground() {
 
       <div className="content">
         <p>
-          Video BGround
+          Advertise Here
         </p>
       </div>
 

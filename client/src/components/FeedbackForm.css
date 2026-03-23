@@ -1,10 +1,15 @@
+
 .feedback-container {
   display: flex;
-  flex-direction:column;
-  margin-left: 1300px;
+  flex-direction: column;
 
-  margin-top: -620px;
+  margin-left: auto;   /* 🔥 pushes it to the right */
+  margin-top: 180px;  /* 🔥 pushes it up (adjust as needed) */
+  width: fit-content;  /* prevents full width stretch */
+  margin-right: 40px;
 }
+
+
 
 .feedback-form {
   background: transparent;
@@ -18,17 +23,19 @@
 .feedback-form input,
 .feedback-form textarea {
   background: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(239, 239, 245, 0.72);
+  border: 1px solid red;
   color: rgb(50, 39, 174);
-  font-size: 15px;
+  font-size: 20px;
   padding: 10px;
   border-radius: 5px;
   margin-top: 10px;
+  
 }
 
 .feedback-form textarea {
   height: 100px;
   resize: none;
+  border: 1px solid red;
 }
 
 .feedback-form button,

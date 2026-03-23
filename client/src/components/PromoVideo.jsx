@@ -2,6 +2,8 @@ import "./PromoVideo.css";
 
 function PromoVideo() {
   return (
+    <>
+    <div className="sticky-element">
     <div className="promo-video-container">
 
       <video
@@ -16,7 +18,9 @@ function PromoVideo() {
 
       
 
+      </div>
     </div>
+  </>
   );
 }
 

@@ -10,3 +10,8 @@
   height:100%;
   object-fit:cover;
 }
+.sticky-element {
+  position: sticky;
+  top: 0; /* or 10px, 20px, etc */
+  z-index: 100; /* helps it stay above other elements */
+}

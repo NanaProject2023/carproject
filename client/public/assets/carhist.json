@@ -1,0 +1,33 @@
+
+[
+  {
+    "id": 1,
+    "title": "Ferrari 488 SOLD! 3/1/25",
+    "price": "$280,000",
+    "image": "./assets/carhist1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Lamborghini Huracan. SOLD! 9/15/25",
+    "price": "$310,000",
+    "image": "./assets/carhist2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Porsche 911 SOLD! 12/12/25",
+    "price": "$150,000",
+    "image": "./assets/carhist3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Audi R8  SOLD! 11/2/25",
+    "price": "$180,000",
+    "image": "./assets/carhist4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "McLaren 720S  SOLD! 3/5/26",
+    "price": "$300,000",
+    "image": "./assets/carhist5.jpg"
+  }
+]

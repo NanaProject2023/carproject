@@ -48,5 +48,11 @@ body{
   font-size:18px;
 }
 
-
+.mmain-layout {
+  display: flex;
+  align-items: flex-start; /* aligns top */
+  justify-content: space-between;
+  gap: 40px; /* space between components */
+  width: 100%;
+}
 

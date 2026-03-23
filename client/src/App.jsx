@@ -8,6 +8,7 @@ import PromoVideo2 from "./components/PromoVideo2";
 import VideoBground from "./components/VideoBground";   
 import FeedbackForm from "./components/FeedbackForm"; 
 import Car3D from "./components/Car3D";
+import CarHist from "./components/CarHist"; 
 
 
 
@@ -39,9 +40,16 @@ function App() {
       <Cars addToCart={addToCart} />
 
       <PromoVideo2 />
+
+
+
+      
+      <div className="mmain-layout">
       <VideoBground />
+      <CarHist />
       <FeedbackForm />
-      <Car3D /> 
+      </div>
+      
       
 
 

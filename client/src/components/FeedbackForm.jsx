@@ -58,7 +58,7 @@ export default function FeedbackForm() {
 
         <button type="submit">Submit</button>
       </form>
-
+        {/*
       <button onClick={loadFeedback} className="load-btn" id="reloadButton">
         Reload Feedback
       </button>
@@ -71,6 +71,7 @@ export default function FeedbackForm() {
           </div>
         ))}
       </div>
+      */}
     </div>
   );
 }
