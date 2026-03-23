@@ -41,11 +41,11 @@
     "model": "Model S Plaid",
     "year": 2023,
     "price": 99000,
-    "image_url": "car4.jpg",
-    "image2": "car4.jpg",
-    "image3": "car4.jpg",
-    "image4": "car4.jpg",
-    "image5": "car4.jpg"
+    "image_url": "carhist3.jpg",
+    "image2": "carhist3.jpg",
+    "image3": "carhist3.jpg",
+    "image4": "carhist3.jpg",
+    "image5": "carhist3.jpg"
   },
   {
     "id": 5,
@@ -65,11 +65,11 @@
     "model": "Mustang GT",
     "year": 2021,
     "price": 42000,
-    "image_url": "car6.jpg",
-    "image2": "car6.jpg",
-    "image3": "car6.jpg",
-    "image4": "car6.jpg",
-    "image5": "car6.jpg"
+    "image_url": "carhist1.jpg",
+    "image2": "carhist1.jpg",
+    "image3": "carhist1.jpg",
+    "image4": "carhist1.jpg",
+    "image5": "carhist1.jpg"
   },
   {
     "id": 7,
@@ -77,11 +77,11 @@
     "model": "Corvette Stingray",
     "year": 2023,
     "price": 83000,
-    "image_url": "car7.jpg",
-    "image2": "car7.jpg",
-    "image3": "car7.jpg",
-    "image4": "car7.jpg",
-    "image5": "car7.jpg"
+    "image_url": "carhist5.jpg",
+    "image2": "carhist5.jpg",
+    "image3": "carhist5.jpg",
+    "image4": "carhist5.jpg",
+    "image5": "carhist5.jpg"
   },
   {
     "id": 8,
