@@ -33,7 +33,7 @@ export default function CarHist() {
       </button>
 
       <div className="carousel-card">
-        <img src={car.image} alt={car.title} />
+        <img src={`${import.meta.env.BASE_URL}${car.image}`} alt={car.title} />
         <h2>{car.title}</h2>
         <p>{car.price}</p>
       </div>

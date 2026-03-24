@@ -4,16 +4,14 @@ import PromoVideo from "./components/PromoVideo";
 import Cars from "./pages/Cars";
 import Cart from "./components/Cart";
 import "./App.css";
-import PromoVideo2 from "./components/PromoVideo2"; 
-import VideoBground from "./components/VideoBground";   
-import FeedbackForm from "./components/FeedbackForm"; 
+import PromoVideo2 from "./components/PromoVideo2";
+import VideoBground from "./components/VideoBground";
+import FeedbackForm from "./components/FeedbackForm";
 import Car3D from "./components/Car3D";
-import CarHist from "./components/CarHist"; 
-
-
+import CarHist from "./components/CarHist";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
-
   const [cart, setCart] = useState([]);
   const [cartOpen, setCartOpen] = useState(false);
 
@@ -23,44 +21,47 @@ function App() {
 
   const removeFromCart = (index) => {
     const updated = [...cart];
-    updated.splice(index,1);
+    updated.splice(index, 1);
     setCart(updated);
   };
 
   return (
     <div>
-
+      {/* Navbar stays ALWAYS visible */}
       <Navbar
         cartCount={cart.length}
         openCart={() => setCartOpen(true)}
       />
 
-      <PromoVideo />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <PromoVideo />
+              <Cars addToCart={addToCart} />
+              <PromoVideo2 />
 
-      <Cars addToCart={addToCart} />
+              <div className="mmain-layout">
+                <VideoBground />
+                <CarHist />
+                <FeedbackForm />
+              </div>
 
-      <PromoVideo2 />
-
-
-
-      
-      <div className="mmain-layout">
-      <VideoBground />
-      <CarHist />
-      <FeedbackForm />
-      </div>
-      
-      
-
-
-      {cartOpen && (
-        <Cart
-          cart={cart}
-          removeFromCart={removeFromCart}
-          closeCart={() => setCartOpen(false)}
+              {cartOpen && (
+                <Cart
+                  cart={cart}
+                  removeFromCart={removeFromCart}
+                  closeCart={() => setCartOpen(false)}
+                />
+              )}
+            </>
+          }
         />
-      )}
 
+        <Route path="/car3d" element={<Car3D />} />
+
+      </Routes>
     </div>
   );
 }

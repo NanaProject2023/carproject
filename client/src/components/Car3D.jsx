@@ -32,6 +32,7 @@ export default function Car3D() {
   const currentCar = cars[currentIndex];
 
   return (
+    <div className="car3d-page">
     <div className="car3D-container">
       <h2>{currentCar.month} Car of the Month (3D Modeling Demo)</h2>
       <h3>{currentCar.car_name}</h3>
@@ -42,12 +43,17 @@ export default function Car3D() {
         auto-rotate
         camera-controls
         style={{ width: "100%", height: "400px" }}
-      ></model-viewer>
+      >
+        
+      </model-viewer>
+
+
 
       <div className="controls">
         <button onClick={prevCar}>⬅ Prev</button>
         <button onClick={nextCar}>Next ➡</button>
       </div>
+    </div>
     </div>
   );
 }
