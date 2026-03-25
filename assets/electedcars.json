@@ -2,31 +2,31 @@
   {
     "id": 1,
     "month": "January",
-    "car_name": "Ferrari Concept",
+    "car_name": "MERCEDES AMG10X:",
     "model": "assets/3d1.glb"
   },
   {
     "id": 2,
     "month": "February",
-    "car_name": "Porsche Style",
+    "car_name": "MERCEDES 190 DIESEL:",
     "model": "assets/3d2.glb"
   },
     {
     "id": 3,
     "month": "March",
-    "car_name": "Audi Concept",
+    "car_name": "ASHELBY BABY:",
     "model": "assets/3d3.glb"
   },
   {
     "id": 4,
     "month": "April",
-    "car_name": "Lamborghini Style",
+    "car_name": "NASA AIR 200XT:",
     "model": "assets/3d4.glb"
   },
   {
     "id": 5,
     "month": "May",
-    "car_name": "BMW Concept",
+    "car_name": "MARS ROVER GTL:",
     "model": "assets/3d5.glb"
   }
  
