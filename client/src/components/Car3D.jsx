@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Car3D.css";
+import LeftAd3D from "./LeftAd3d";
+
 
 
 
@@ -32,6 +34,8 @@ export default function Car3D() {
   const currentCar = cars[currentIndex];
 
   return (
+    <>
+    
     <div className="car3d-page">
     <div className="car3D-container">
       <h2>{currentCar.month} Car of the Month (3D Modeling Demo)</h2>
@@ -55,5 +59,7 @@ export default function Car3D() {
       </div>
     </div>
     </div>
+    <LeftAd3D />
+    </>
   );
 }

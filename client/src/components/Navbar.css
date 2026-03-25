@@ -26,7 +26,7 @@
 
 .nav-links a{
   text-decoration:none;
-  color:rgba(222, 70, 15, 0.919);
+  color:rgba(189, 210, 248, 0.919);
   font-size:30px;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
@@ -34,7 +34,7 @@
 }
 
 .nav-links a:hover{
-  color:#00bfff;
+  color:#d02608;
 }
 
 
