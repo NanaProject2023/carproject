@@ -8,9 +8,9 @@ function Navbar({ cartCount, openCart }) {
     <nav className="navbar">
  
       <ul className="nav-links">
-       <li><Link to="/">Home</Link></li>
-       <li><Link to="/car3d">Cars 3D Model</Link></li>
-       <li><Link to="/contact">Contact</Link></li>
+       <li><Link to="/">HOME</Link></li>
+       <li><Link to="/car3d">3D MODS</Link></li>
+       <li><Link to="/contact">CONTACT</Link></li>
       </ul>
 
 

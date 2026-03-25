@@ -19,7 +19,7 @@
 .car3D-container h3 {
   font-size: 1.2rem;
   margin-bottom: 20px;
-  color: #7ba1f1;
+  color: #eaedf3;
 }
 
 model-viewer {
@@ -47,7 +47,6 @@ model-viewer {
   transition: 0.2s;
   border-radius: 15px;
   border: none;
-  box-shadow: 6px 6px 10px red;
   padding: 6px 100px;
 }
 
