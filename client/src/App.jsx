@@ -10,6 +10,7 @@ import FeedbackForm from "./components/FeedbackForm";
 import Car3D from "./components/Car3D";
 import CarHist from "./components/CarHist";
 import { Routes, Route } from "react-router-dom";
+import Popup from "./components/Popup";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -27,7 +28,7 @@ function App() {
 
   return (
     <div>
-      {/* Navbar stays ALWAYS visible */}
+     {/*<Popup />*/}
       <Navbar
         cartCount={cart.length}
         openCart={() => setCartOpen(true)}

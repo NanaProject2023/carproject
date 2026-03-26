@@ -34,32 +34,11 @@ export default function Car3D() {
   const currentCar = cars[currentIndex];
 
   return (
-    <>
+   
     
-    <div className="car3d-page">
-    <div className="car3D-container">
-      <h2>{currentCar.month} Car of the Month (3D Modeling Demo)</h2>
-      <h3>{currentCar.car_name} Be advised! Github size restriction we can only use small 3D files</h3>
-
-      <model-viewer
-        src={currentCar.model}
-        alt={currentCar.car_name}
-        auto-rotate
-        camera-controls
-        style={{ width: "100%", height: "400px" }}
-      >
-
-      </model-viewer>
-
-
-
-      <div className="controls">
-        <button onClick={prevCar}>⬅ Prev</button>
-        <button onClick={nextCar}>Next ➡</button>
-      </div>
-    </div>
-    </div>
     <LeftAd3D />
-    </>
+    
+    
+    
   );
 }

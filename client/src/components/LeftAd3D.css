@@ -10,14 +10,33 @@
 text-align: center;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: 40px;
-color: rgb(244, 19, 19);
+color: rgb(248, 246, 245);
 }
+.percentage{
 
+text-align: left;
+font-family: 'Times New Roman', Times, serif;
+font-size: 14px;
+color: rgb(73, 154, 220);
+margin-top: -35px;
+padding-left: 25px;
+position: relative;
+z-index: 3;
+}
+.adclaim{
 
+text-align: right;
+font-family: 'Times New Roman', Times, serif;
+font-size: 13px;
+color: rgb(235, 59, 15);
+padding-right: 30px;
+position: relative;
+margin-bottom: -60px;
+z-index: 3;
 
-
-
+}
 .left-ad3d {
+    
   width: 24%;
   height: 700px;
   background: #111;
@@ -25,8 +44,8 @@ color: rgb(244, 19, 19);
   flex-direction: column;
   gap: 10px;
   padding: 10px;
-  margin-top: -1288px;
   margin-left: 30px;
+  margin-top: 20px;
 }
 
 .left-ad3d video {
@@ -34,5 +53,14 @@ color: rgb(244, 19, 19);
   height: 400px;
   object-fit: cover;
   display: block;
-  
+  z-index: 1;
+
+}
+h3:hover{
+  color: white;
+  cursor: pointer;
+}
+a{
+
+  text-decoration: none;
 }

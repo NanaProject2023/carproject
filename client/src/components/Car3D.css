@@ -9,6 +9,7 @@
   padding: 20px;
   background: #010101;
   color: #44a5cb;
+  position: relative;
 }
 
 .car3D-container h2 {
@@ -19,7 +20,7 @@
 .car3D-container h3 {
   font-size: 1.2rem;
   margin-bottom: 20px;
-  color: #eaedf3;
+  color: #ef280e;
 }
 
 model-viewer {

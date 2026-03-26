@@ -14,18 +14,19 @@
 #advertiseButton{
   position: absolute;
 
-  left: 12%;
+  left: 11%;
   transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, 0.14);
   color: rgb(113, 109, 69);
   border: 1px solid;
-  border-radius: 0px;
+  border-radius: 30px;
   padding: 10px;
   cursor: pointer;
   font-size: 36px;
-  margin-top: 160px;
+  margin-top: 180px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  padding : 10px 40px;
+  padding : 60px 40px;
+  width: 350px;
   
  
 }

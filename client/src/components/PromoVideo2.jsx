@@ -15,7 +15,7 @@ function PromoVideo2() {
       </video>
       
       <button id="advertiseButton" onClick={() => window.location.href = "https://www.visitmorocco.com/en"}>
-                    ADVERTISE HERE !!
+                    ADVERTISE HERE ? Click Me . . .
       </button>
       
 

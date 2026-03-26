@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Special Offer",
+    "description": "Get exclusive access to our latest features and updates.",
+    "image": "./assets/popupInfo1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "New Collection",
+    "description": "Check out our newly added collection with premium designs.",
+    "image": "./assets/popupInfo2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Limited Time Deal",
+    "description": "Don't miss out on this limited time promotion available now.",
+    "image": "./assets/popupInfo3.jpg"
+  }
+]
