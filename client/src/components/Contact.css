@@ -1,7 +1,7 @@
 .contact-container {
   width: 100%;
   max-width: 600px;
-  margin: 80px auto;
+  margin: 143px auto;
   padding: 30px;
   background: #0d0d0d;
   color: #ffffff;
@@ -13,7 +13,7 @@
 .contact-container h2 {
   margin-bottom: 20px;
   font-size: 2rem;
-  color: #44a5cb;
+  color: #95c0d1d7;
 }
 
 .contact-form {
@@ -42,7 +42,7 @@
   padding: 12px;
   border: none;
   border-radius: 8px;
-  background: #44a5cb;
+  background: #95c0d1d7;
   color: #000;
   font-weight: bold;
   cursor: pointer;
@@ -50,7 +50,7 @@
 }
 
 .contact-form button:hover {
-  background: #2f8aa8;
+  background: #d5dcde98;
 }
 
 .status {

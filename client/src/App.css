@@ -13,9 +13,9 @@ body{
 
   grid-template-columns:repeat(3, 1fr);
 
-  gap:20px;
+  gap:0px;
   margin-top: 36px;
-  margin-left: 15%;
+  margin-left: 25%;
   
  
 }
@@ -26,7 +26,7 @@ body{
   width: 400px;
   background:rgba(16, 9, 41, 0.208);
   border-radius:10px;
-  padding: 15px;
+  
   padding-bottom: 20px;
   box-shadow:0 4px 10px rgba(24, 21, 78, 0.824);
   margin-left: 40px;
@@ -40,12 +40,6 @@ body{
   height:250px;
   object-fit:cover;
   border-radius:6px;
-}
-
-.price{
-  color:green;
-  font-weight:bold;
-  font-size:18px;
 }
 
 .mmain-layout {
