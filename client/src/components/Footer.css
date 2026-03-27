@@ -1,0 +1,30 @@
+.footer {
+  width: 470px;
+  padding: 20px;
+  background: #111;
+  color: #fff;
+
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+  top: -100px;
+
+  margin-left: auto;   /* 🔥 pushes it to the right */
+  margin-right: 40px;  /* keeps 20px gap from edge */
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #44a5cb;
+}

@@ -11,6 +11,9 @@ import Car3D from "./components/Car3D";
 import CarHist from "./components/CarHist";
 import { Routes, Route } from "react-router-dom";
 import Popup from "./components/Popup";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";;
+
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -61,8 +64,10 @@ function App() {
         />
 
         <Route path="/car3d" element={<Car3D />} />
+        <Route path="/contact" element={<Contact />} />
 
       </Routes>
+      <Footer />
     </div>
   );
 }

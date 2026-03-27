@@ -18,7 +18,7 @@ function PromoVideo() {
       </video>
 
   <img
-    src={`${import.meta.env.BASE_URL}assets/logo.jpg`}
+    src={`${import.meta.env.BASE_URL}assets/logo1.png`}
     alt="logo"
     className="banner-logo"
   />

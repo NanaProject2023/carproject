@@ -25,11 +25,12 @@
 .car-card h3{
   font-size:18px;
   margin:10px;
+  color: rgba(54, 130, 157, 0.749);
 }
 
 .car-card p{
   margin:4px 10px;
-  color:#555;
+  color:#f9f3f3;
 }
 
 .price{

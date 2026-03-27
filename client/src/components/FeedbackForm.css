@@ -4,7 +4,7 @@
   flex-direction: column;
 
   margin-left: auto;   /* 🔥 pushes it to the right */
-  margin-top: 180px;  /* 🔥 pushes it up (adjust as needed) */
+  margin-top: 150px;  /* 🔥 pushes it up (adjust as needed) */
   width: fit-content;  /* prevents full width stretch */
   margin-right: 40px;
 }
