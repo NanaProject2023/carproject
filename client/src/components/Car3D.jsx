@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Car3D.css";
 import LeftAd3D from "./LeftAd3d";
+import RightAd3D from "./RightAd3D";
 
 
 
@@ -34,11 +35,31 @@ export default function Car3D() {
   const currentCar = cars[currentIndex];
 
   return (
-   
+   <>
     
     <LeftAd3D />
+   <div className="car3D-container">
+
+    <model-viewer
+        key={currentCar.id}  // 🔥 forces reload
+        src={`${import.meta.env.BASE_URL}${currentCar.model}`}
+        auto-rotate
+        camera-controls
+        style={{ width: "100%", height: "400px" }}
+      ></model-viewer>
+
+      <div style={{ marginTop: "10px" }}>
+        <button onClick={prevCar}>Previous</button>
+        <button onClick={nextCar}>Next</button>
+      </div>
+
+    </div>
+
+  <RightAd3D />
     
+
     
+  </>  
     
   );
 }

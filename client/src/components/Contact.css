@@ -39,14 +39,15 @@
 }
 
 .contact-form button {
-  padding: 12px;
+  padding: 15px;
   border: none;
   border-radius: 8px;
   background: #95c0d1d7;
-  color: #000;
+  color: #f3f0f0;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
+  font-size: 15px;
 }
 
 .contact-form button:hover {

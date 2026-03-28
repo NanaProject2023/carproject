@@ -12,6 +12,13 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: 40px;
 color: rgb(248, 246, 245);
 }
+.ad3d:hover{
+  color: rgb(132, 166, 234);
+  cursor: pointer;
+  transition: color 0.9s ease;
+  transform: translateY(-3px);
+  
+}
 .percentage{
 
 text-align: left;
@@ -22,7 +29,15 @@ margin-top: -35px;
 padding-left: 25px;
 position: relative;
 z-index: 3;
+transition: color 0.9s ease;
+
 }
+.percentage:hover{
+  color: rgb(247, 246, 246);
+  cursor: pointer;
+  transition: color 0.9s ease;
+  transform: translateY(-3px);
+} 
 .adclaim{
 
 text-align: right;
@@ -33,7 +48,14 @@ padding-right: 30px;
 position: relative;
 margin-bottom: -60px;
 z-index: 3;
+transition: color 0.9s ease;
 
+}
+.adclaim:hover{
+  color: rgb(247, 246, 246);
+  cursor: pointer;
+  transition: color 0.9s ease;
+  transform: translateY(3px);
 }
 .left-ad3d {
     

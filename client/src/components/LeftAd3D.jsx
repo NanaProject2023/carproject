@@ -12,7 +12,7 @@ export default function LeftAd3D() {
 </video>
 
 <a href=""><h3 className="percentage">17% off! To Learn More Click Me</h3></a>
-<h2 className="ad3d">ADVERTISE HERE </h2>
+<a href=""><h2 className="ad3d">ADVERTISE HERE </h2></a>
 <a href=""><h3 className="adclaim"> Reserve this Window! Click Me</h3></a>
 
 <video autoPlay muted loop playsInline>

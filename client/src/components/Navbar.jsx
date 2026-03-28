@@ -9,7 +9,7 @@ function Navbar({ cartCount, openCart }) {
  
       <ul className="nav-links">
        <li><Link to="/">HOME</Link></li>
-       <li><Link to="/car3d">3D MODS</Link></li>
+       <li><Link to="/car3d">3D SHOW</Link></li>
        <li><Link to="/contact">CONTACT</Link></li>
       </ul>
 

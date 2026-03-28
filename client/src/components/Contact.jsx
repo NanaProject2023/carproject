@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Contact.css";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
+import LocationInfo from "./LocationInfo";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -74,10 +75,23 @@ export default function Contact() {
           required
         ></textarea>
 
-        <button type="submit">Send Message</button>
+        <button type="submit">Send </button>
       </form>
 
       {status && <p className="status">{status}</p>}
+
+
+
+
+
+
+    <LocationInfo />
+
+
+
+
+
+
     </div>
   );
 }
