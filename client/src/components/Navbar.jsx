@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import Car3D from "./Car3D";
+import Car3d from "./Car3d";
 
 function Navbar({ cartCount, openCart }) {
 
