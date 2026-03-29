@@ -1,10 +1,10 @@
+/* FILTER (already good) */
 .filter-container {
   display: flex;
   align-items: center;
   gap: 10px;
   margin: 20px 60px;
   flex-wrap: wrap;
-  
 }
 
 .filter-container label {
@@ -23,14 +23,38 @@
   transition: 0.2s ease;
 }
 
-/* Hover + focus effect */
 .filter-container select:hover,
 .filter-container select:focus {
   border-color: #44a5cb;
   outline: none;
 }
 
-/* Responsive: stack on small screens */
+/* ✅ ADD THIS (missing piece) */
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* ✅ ALSO MOVE THIS */
+.car-card {
+  height: 400px;
+  background: rgba(16, 9, 41, 0.208);
+  border-radius: 10px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(24, 21, 78, 0.824);
+}
+
+/* image */
+.car-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* responsive */
 @media (max-width: 600px) {
   .filter-container {
     flex-direction: column;
@@ -40,3 +64,4 @@
   .filter-container select {
     width: 100%;
   }
+}

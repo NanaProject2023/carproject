@@ -7,7 +7,7 @@ import "./App.css";
 import PromoVideo2 from "./components/PromoVideo2";
 import VideoBground from "./components/VideoBground";
 import FeedbackForm from "./components/FeedbackForm";
-import Car3D from "./components/Car3D";
+import Car3d from "./components/Car3d";
 import CarHist from "./components/CarHist";
 import { Routes, Route } from "react-router-dom";
 import Popup from "./components/Popup";
@@ -63,7 +63,7 @@ function App() {
           }
         />
 
-        <Route path="/car3d" element={<Car3D />} />
+        <Route path="/car3d" element={<Car3d />} />
         <Route path="/contact" element={<Contact />} />
 
       </Routes>
