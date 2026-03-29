@@ -1,0 +1,42 @@
+.filter-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 60px;
+  flex-wrap: wrap;
+  
+}
+
+.filter-container label {
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgba(18, 73, 222, 0.974);
+}
+
+.filter-container select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #111;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* Hover + focus effect */
+.filter-container select:hover,
+.filter-container select:focus {
+  border-color: #44a5cb;
+  outline: none;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 600px) {
+  .filter-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filter-container select {
+    width: 100%;
+  }

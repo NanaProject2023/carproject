@@ -49,8 +49,8 @@ export default function Car3D() {
       ></model-viewer>
 
       <div style={{ marginTop: "10px" }}>
-        <button onClick={prevCar}>Previous</button>
-        <button onClick={nextCar}>Next</button>
+        <button onClick={prevCar}>Prev 3D</button>
+        <button onClick={nextCar}>Next 3D</button>
       </div>
 
     </div>

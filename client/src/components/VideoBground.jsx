@@ -11,7 +11,7 @@ function VideoBground() {
 
       <div className="content">
         <p>
-          Advertise Here
+          <a href="">Advertise Here</a>
         </p>
       </div>
 

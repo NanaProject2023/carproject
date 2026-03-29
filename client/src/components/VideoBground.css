@@ -35,3 +35,17 @@
   background:transparent;
   padding:20px;
 }
+.content a{
+  text-decoration: none;
+  color: rgb(40, 74, 133);
+  background: transparent;
+  padding: 20px;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.content a:hover{
+  color: rgb(247, 246, 246);
+  cursor: pointer;
+  transition: color 0.9s ease;
+  transform: translateY(-3px);
+}
