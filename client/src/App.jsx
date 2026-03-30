@@ -12,7 +12,9 @@ import CarHist from "./components/CarHist";
 import { Routes, Route } from "react-router-dom";
 import Popup from "./components/Popup";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";;
+import Footer from "./components/Footer";
+import DiscountPopup from "./components/DiscountPopup";
+import DiscountPopup2 from "./components/DiscountPopup2";
 
 
 function App() {
@@ -65,6 +67,8 @@ function App() {
 
         <Route path="/car3d" element={<Car3d />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/discountpopup" element={<DiscountPopup />} />
+        <Route path="/discountpopup2" element={<DiscountPopup2 />} />
 
       </Routes>
       <Footer />

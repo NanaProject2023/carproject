@@ -1,4 +1,5 @@
 import "./VideoBground.css";
+import { Link } from "react-router-dom"
 
 
 function VideoBground() {
@@ -11,7 +12,7 @@ function VideoBground() {
 
       <div className="content">
         <p>
-          <a href="">Advertise Here</a>
+          <Link to="/contact">Advertise Here</Link>
         </p>
       </div>
 

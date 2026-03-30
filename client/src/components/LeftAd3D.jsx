@@ -10,8 +10,12 @@ export default function LeftAd3D() {
   <source src={`${import.meta.env.BASE_URL}assets/sunset.mp4`} type="video/mp4" />
 </video>
 
-<h3 className="percentage">17% off! To Learn More Click Me</h3>
+<Link to="/discountpopup">
+  <h3 className="percentage">17% off! To Learn More Click Me</h3>
+</Link>
+<Link to="/discountpopup2">
 <h2 className="ad3d">ADVERTISE HERE </h2>
+</Link>
 
 <Link to="/contact">
   <h3 className="adclaim"> Reserve this Window! Click Me</h3>

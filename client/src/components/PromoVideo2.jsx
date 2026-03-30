@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./PromoVideo2.css";
 
 function PromoVideo2() {
@@ -13,11 +14,11 @@ function PromoVideo2() {
       >
         <source  src={`${import.meta.env.BASE_URL}assets/promo2.mp4`}  type="video/mp4" />
       </video>
-      
-      <button id="advertiseButton" onClick={() => window.location.href = "https://www.visitmorocco.com/en"}>
+      < Link to="/contact">
+      <button id="advertiseButton" className="advertise-button" >
                     ADVERTISE HERE ? Click Me . . .
       </button>
-      
+      </Link>
 
 </>
      

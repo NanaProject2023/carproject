@@ -1,0 +1,15 @@
+.popup h3 {
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
