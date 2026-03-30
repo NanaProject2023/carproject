@@ -68,6 +68,8 @@ transition: color 0.9s ease;
   padding: 10px;
   margin-left: 0px;
   margin-top: 20px;
+    position: relative;
+  z-index: 999;
 }
 
 .left-ad3d video {
@@ -76,6 +78,7 @@ transition: color 0.9s ease;
   object-fit: cover;
   display: block;
   z-index: 1;
+  pointer-events: none;
 
 }
 h3:hover{
