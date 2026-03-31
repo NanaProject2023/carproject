@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./DiscountPopup2.css";
 
 export default function DiscountPopup2() {
   const navigate = useNavigate();
