@@ -6,8 +6,9 @@ import "./Cars.css";
 function Cars({ addToCart }) {
 
   const [cars, setCars] = useState([]);
-  const [selectedCar, setSelectedCar] = useState(null);
-  const [selectedYear, setSelectedYear] = useState("all");
+  const [selectedCar, setSelectedCar] = useState("any");
+  const [selectedYear, setSelectedYear] = useState("any");
+  const [activeCar, setActiveCar] = useState(null);
 
 
 useEffect(() => { 
@@ -17,11 +18,16 @@ useEffect(() => {
     .catch(err => console.error("Error loading cars:", err));
 }, []);
 
-const filteredCars = cars.filter(car =>
-  selectedYear === "all" || car.year === Number(selectedYear)
-);
+const filteredCars = cars.filter((car) => {
+  const matchYear =
+    selectedYear === "any" || car.year.toString() === selectedYear;
 
+  const matchCar =
+    selectedCar === "any" ||
+    car.brand?.toLowerCase() === selectedCar.toLowerCase();
 
+  return matchYear && matchCar;
+});
 
 
 
@@ -36,14 +42,25 @@ const filteredCars = cars.filter(car =>
         value={selectedYear}
         onChange={(e) => setSelectedYear(e.target.value)}
       >
-        <option value="all">Any</option>
+        <option value="any">Any</option>
         <option value="2026">2026</option>
         <option value="2025">2025</option>
         <option value="2024">2024</option>
       </select>
+
+      <label htmlFor="car-filter">Filter by Car:</label>
+      <select
+        value={selectedCar}
+        onChange={(e) => setSelectedCar(e.target.value)}
+      >
+         <option value="any">Any</option>
+         <option value="Mercedes">Mercedes</option>
+         <option value="Lamborghini">Lamborghini</option>
+         <option value="Porsche">Porsche</option>
+         <option value="Audi">Audi</option>
+      </select>
+
       </div>
-
-
 
       <div className="car-grid">
 {/* 
@@ -61,7 +78,7 @@ const filteredCars = cars.filter(car =>
           <CarCard
             key={car.id}
             car={car}
-            onView={() => setSelectedCar(car)}
+            onView={() => setActiveCar(car)}
             addToCart={() => addToCart(car)}
           />
         ))}
@@ -70,9 +87,9 @@ const filteredCars = cars.filter(car =>
     </div>
 
       <CarModal
-        car={selectedCar}
-        closeModal={() => setSelectedCar(null)}
-        addToCart={() => addToCart(selectedCar)}
+        car={activeCar}
+        closeModal={() => setActiveCar(null)}
+        addToCart={() => addToCart(activeCar)}
       />
 
     </div>
