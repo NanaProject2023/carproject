@@ -45,12 +45,12 @@ export default function Car3D() {
     <div className="car3D-container">
 
     <model-viewer
-        key={currentCar.id}  // 🔥 forces reload
-        src={`${import.meta.env.BASE_URL}${currentCar.model}`}
-        auto-rotate
-        camera-controls
-        style={{ width: "100%", height: "400px" }}
-      ></model-viewer>
+  key={currentCar.id}
+  src={`${import.meta.env.BASE_URL}${currentCar.model}`}
+  auto-rotate
+  camera-controls
+  style={{ width: "100%", height: "400px", pointerEvents: "auto" }}
+></model-viewer>
 
       <div style={{ marginTop: "10px" }}>
         <button onClick={prevCar}>Prev 3D</button>
