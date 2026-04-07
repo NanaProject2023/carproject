@@ -38,12 +38,29 @@ export default function Car3D() {
   return (
    <>
     
-    
+    <Popup2 />
 
     <LeftAd3D />
+
+    <div className="car3D-container">
+
+    <model-viewer
+        key={currentCar.id}  // 🔥 forces reload
+        src={`${import.meta.env.BASE_URL}${currentCar.model}`}
+        auto-rotate
+        camera-controls
+        style={{ width: "100%", height: "400px" }}
+      ></model-viewer>
+
+      <div style={{ marginTop: "10px" }}>
+        <button onClick={prevCar}>Prev 3D</button>
+        <button onClick={nextCar}>Next 3D</button>
+      </div>
+
+    </div>
    
 
-  <RightAd3D />
+    <RightAd3D />
     
 
     

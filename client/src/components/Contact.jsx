@@ -3,6 +3,7 @@ import "./Contact.css";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import LocationInfo from "./LocationInfo";
+import ThanksParagraph from "./ThanksParagraph";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -45,6 +46,8 @@ export default function Contact() {
   };
 
   return (
+    <>
+    
     <div className="contact-container">
       <h2>Contact US</h2>
 
@@ -89,9 +92,14 @@ export default function Contact() {
 
 
 
-
+    
 
 
     </div>
+    <div>
+      <ThanksParagraph />
+    </div>
+    
+    </>
   );
 }

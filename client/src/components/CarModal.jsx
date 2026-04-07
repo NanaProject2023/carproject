@@ -43,7 +43,7 @@ function CarModal({ car, closeModal, addToCart }) {
 
         <p className="modal-price">${car.price}</p>
 
-        <button
+        <button className="add-to-cartt"
           onClick={() => {
             addToCart(car);
             closeModal();

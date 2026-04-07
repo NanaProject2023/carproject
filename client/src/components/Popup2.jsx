@@ -17,7 +17,7 @@ export default function Popup2() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShow(true);
-    }, 3000);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);

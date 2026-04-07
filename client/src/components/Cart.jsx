@@ -50,7 +50,7 @@ function Cart({ cart, removeFromCart, closeCart }) {
 
         <div className="cart-actions">
 
-          <button onClick={closeCart}>
+          <button onClick={closeCart} className="continue-btn">
             Continue Shopping
           </button>
 

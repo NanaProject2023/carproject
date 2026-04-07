@@ -15,7 +15,7 @@
 }
 
 .modal{
-  background:white;
+  background:rgba(198, 215, 233, 0.919);
   padding:25px;
   border-radius:10px;
   width:400px;
@@ -45,4 +45,15 @@
   background:none;
   font-size:20px;
   cursor:pointer;
+}
+.add-to-cartt{
+  margin-top:15px;
+  padding:6px 100px;
+  border:none;
+  border-radius:15px;
+  background:#1e678e;
+  color:white;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.3s;
 }
