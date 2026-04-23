@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./Car3D.css";
+import "./Car3d.css";
 import LeftAd3D from "./LeftAd3d";
 import RightAd3D from "./RightAd3D";
 import Popup2 from "./Popup2";
@@ -9,7 +9,7 @@ import Popup2 from "./Popup2";
 
 
 
-export default function Car3D() {
+export default function Car3d() {
   const [cars, setCars] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
 
