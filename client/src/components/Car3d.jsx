@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Car3d.css";
-import LeftAd3D from "./LeftAd3d";
+import LeftAd3D from "./LeftAd3D";
 import RightAd3D from "./RightAd3D";
 import Popup2 from "./Popup2";
 
